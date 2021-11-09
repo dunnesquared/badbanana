@@ -56,8 +56,9 @@ class CliGame(Game):
                 except ValueError:
                     print(f"Input values must be is not a whole number. Try again :-).")
                     continue
-                if min_int >= max_int:
-                    print("Your second number must be bigger than your first! Try again :-).")
+                if min_int > max_int:
+                    print("Your second number must be bigger than or equal to "  
+                            "your first! Try again :-).")
                     continue
                 break
             print("\nOk then :-)!\n")
