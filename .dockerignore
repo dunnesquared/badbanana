@@ -1,0 +1,14 @@
+# Ignore git and cache folders
+.git
+.cache
+__pycache__/
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore misc
+docs/
+todo.txt
+*.py[cod]
+.DS_Store
+
